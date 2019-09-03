@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Star Wars RPG!</h1>
+    </header>
+
+    <div class="container">
+        <div class="initImg">
+            <div id="owk" class="imgIcon bordered">
+                <p class="name">Obi-Wan Kenobi</p>
+                <img class="charImage" src="./assets/images/owk.jpg" alt="Obi">
+                <p id="hp">120</p>
+            </div>
+            <div id="ls" class="imgIcon bordered">
+                <p class="name">Luke Skywalker</p>
+                <img class="charImage" src="./assets/images/ls.jpg" alt="Luke">
+                <p id="hp">100</p>
+            </div>
+            <div id="ds" class="imgIcon bordered">
+                <p class="name">Darth Sidious</p>
+                <img class="charImage" src="./assets/images/ds.jpg" alt="Sidious">
+                <p id="hp">150</p>
+            </div>
+            <div id="dm" class="imgIcon bordered">
+                <p class="name">Darth Maul</p>
+                <img class="charImage" src="./assets/images/dm.jpg" alt="Maul">
+                <p id="hp">180</p>
+            </div>
+        </div>
+
+        <div class="yourCharacter">
+            <h2>Your Character</h2>
+        </div>
+
+        <div class="enemiesSection bordered">
+            <h2>Enemies Available To Attack</h2>
+        </div>
+
+        <div class="defenderSection">
+            <h2>Defender</h2>
+        </div>
+
+        <div class="fightSection">
+            <h2>Fight Section</h2>
+            <div class="controlArea bordered">
+                <button id="buttonAttack" class="bordered">Attack</button>
+                <p id="info1"></p>
+                <p id="info2"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

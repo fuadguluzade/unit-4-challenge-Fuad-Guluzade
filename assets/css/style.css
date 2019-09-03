@@ -1,0 +1,108 @@
+body {
+box-sizing: content-box;
+max-width: 960px;
+margin: auto;
+font-family: 'Chakra Petch', Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 18px;
+line-height: 34px;
+background: url(../images/bg.jpg);
+color: white; 
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.initImg {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.charImage {
+
+    height: 170px;
+    width: 170px;
+}
+
+.imgIcon {
+    text-align: center;
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.imgIcon:first-child {
+    margin-left: 65px;
+}
+
+.imgIcon:last-child {
+    margin-right: 0;
+}
+
+.yourCharacter {
+    position: absolute;
+
+}
+
+.enemiesSection {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+.defenderSection {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 350px;
+}
+
+.fightSection {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 350px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-family: 'Chakra Petch', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+button:active {
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(4px);
+}
+
+.controlArea {
+    height: 240px;
+    width: 250px;
+}
+
+.bordered {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
